@@ -1,4 +1,7 @@
 def count_descendants(tree, person):
+    '''
+    Функция определяет количество потомков для заданного имени
+    '''
     total = 0
     if person in tree:
         for child in tree[person]:
